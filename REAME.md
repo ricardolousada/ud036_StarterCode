@@ -3,9 +3,9 @@
 This project is the first assigment for The Full Stack Web Developer Nanodegree Program.
 The code consists in the following file:
 
-- movies.py:            Defines a class **Movie** wich is used to store movies data
-- entertainment_center: This is the main file of the project
-- fresh_tomatoes.py:    This is supplied file to create a dinamyc web page with the movies information
+- |**movies.py**:            Defines a class **Movie** wich is used to store movies data
+- **entertainment_center**:  This is the main file of the project
+- **fresh_tomatoes.py**:     This is supplied file to create a dinamyc web page with the movies information
 
 I add some aditional features to the original scope of work:
 
@@ -13,8 +13,8 @@ I add some aditional features to the original scope of work:
 2. I have used an API to fetch all the movies information
 3. One can change the predifined movies by adding or changing the names in the movies_to_search array
 
-´movies_to_search = ["Godfather","Pulp Fiction","Reservoir Dogs",
-                    "First Blood","Magnolia","Django Unchained"] `
+'''movies_to_search = ["Godfather","Pulp Fiction","Reservoir Dogs",
+                    "First Blood","Magnolia","Django Unchained"]'''
 
 ## Usage
 
