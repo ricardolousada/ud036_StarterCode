@@ -1,12 +1,15 @@
-import urllib
+class Movie():
+    """This class represents a movie """
 
-# Base URL being accessed
-url = 'https://api.themoviedb.org/3/search/movie?api_key=a8cb555f0dd72144e16336cb914a68a5&query=Jack+Reacher' # NORA
+    def __init__(self,movie_title,movie_storyline, poster_image, movie_trailer
+        ,movie_rating):
+        self.title = movie_title #: This is the movie title
 
+        self.storyline = movie_storyline #: short description about the movie
 
-# Make a GET request and read the response
-u = urllib.urlopen(url)
-resp = u.read()
-print(resp)
-#ver como usar json
-# estudar a possibilidade de usar o package requests
+        self.poster_image_url = poster_image #: url for the image file of the movie poster
+
+        self.trailer_url = movie_trailer #: url for the video file of the movie trailer
+
+        self.rating = movie_rating #: Movie rating
+
